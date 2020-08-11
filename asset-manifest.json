@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kumarnurav9811/googlekeep/static/css/main.f31cc54a.chunk.css",
+    "main.js": "/kumarnurav9811/googlekeep/static/js/main.290b588b.chunk.js",
+    "main.js.map": "/kumarnurav9811/googlekeep/static/js/main.290b588b.chunk.js.map",
+    "runtime-main.js": "/kumarnurav9811/googlekeep/static/js/runtime-main.b9e60d72.js",
+    "runtime-main.js.map": "/kumarnurav9811/googlekeep/static/js/runtime-main.b9e60d72.js.map",
+    "static/js/2.f2636578.chunk.js": "/kumarnurav9811/googlekeep/static/js/2.f2636578.chunk.js",
+    "static/js/2.f2636578.chunk.js.map": "/kumarnurav9811/googlekeep/static/js/2.f2636578.chunk.js.map",
+    "index.html": "/kumarnurav9811/googlekeep/index.html",
+    "precache-manifest.f93d520948d769c9c1fa9e81bc44ed5d.js": "/kumarnurav9811/googlekeep/precache-manifest.f93d520948d769c9c1fa9e81bc44ed5d.js",
+    "service-worker.js": "/kumarnurav9811/googlekeep/service-worker.js",
+    "static/css/main.f31cc54a.chunk.css.map": "/kumarnurav9811/googlekeep/static/css/main.f31cc54a.chunk.css.map",
+    "static/js/2.f2636578.chunk.js.LICENSE.txt": "/kumarnurav9811/googlekeep/static/js/2.f2636578.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/kumarnurav9811/googlekeep/static/media/logo.c6182a4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9e60d72.js",
+    "static/js/2.f2636578.chunk.js",
+    "static/css/main.f31cc54a.chunk.css",
+    "static/js/main.290b588b.chunk.js"
+  ]
+}
