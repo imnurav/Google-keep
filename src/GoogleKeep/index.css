@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  background-color: #f5ba13;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+.my_notes h1 {
+  color: #34495e;
+}
+.my_notes p {
+  color: grey;
+}
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 15px 10px 5px 10px;
+  border-radius: 10px;
+  position: relative;
+}
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.note {
+  min-height: 50px;
+  width: 250px;
+  /* color: #ecf0f1; */
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 15px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.btn {
+  position: relative;
+  float: right;
+  margin-right: -10px;
+  margin-top: -30px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.deleteIcon {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.note .btn:hover {
+  background-color: #f5ba13;
+}
+.note .btn:hover .deleteIcon {
+  color: #fff;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.MuiButton-root {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: -28px;
+  left: 400px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+}
+.MuiButton-root .plus_sign {
+  font-size: 45px !important;
+  font-weight: 900;
+  color: #f4b400;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
