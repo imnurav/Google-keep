@@ -13,9 +13,10 @@ const App = () => {
   };
   const onDelete = (id) => {
     setaddItem((prevData) => {
-      prevData.filter((currentdata, indx) => {
+      return prevData.filter((currentdata, indx) => {
         return indx !== id;
       });
+      
     });
   };
 
